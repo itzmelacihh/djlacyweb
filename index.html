@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Lacy | Hivatalos Oldal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id="top"></div>
+<body>
+
+<header>
+    <div class="logo">
+        <a href="#top">
+            <img src="images/logo.png" alt="DJ Lacy Logo">
+        </a>
+    </div>
+
+    <div class="nav-right">
+        <nav class="nav-links">
+            <a href="#about">Rólam</a>
+            <a href="#services">Szolgáltatások</a>
+            <a href="#contact">Kapcsolat</a>
+        </nav>
+
+        <div class="theme-switch">
+            <span class="icon">🌙</span>
+
+            <label class="switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+
+            <span class="icon">🌞</span>
+        </div>
+    </div>
+</header>
+
+<section class="hero">
+    <h1>DJ Lacy</h1>
+    <h2>Zene minden alkalomra</h2>
+    <p>Iskolai bulik • Esküvők • Házibulik • Céges rendezvények</p>
+</section>
+
+<section id="about">
+    <h2>Rólam</h2>
+    <p>
+        Profi DJ szolgáltatás rendezvényekre Magyarország területén.
+        Modern hangtechnika, személyre szabott zenei lista,
+        garantált hangulat minden eseményen.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Szolgáltatások</h2>
+    <div class="cards">
+        <div class="card">🎓 Iskolai rendezvények</div>
+        <div class="card">💍 Esküvők</div>
+        <div class="card">🏠 Házibulik</div>
+        <div class="card">🏢 Céges események</div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Kapcsolat</h2>
+
+    <form 
+        class="contact-form"
+        action="https://formsubmit.co/lacihhthereal@gmail.com" 
+        method="POST"
+    >
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_subject" value="Új DJ Lacy ajánlatkérés!">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://your-github-username.github.io/your-repo-name/index.html">
+
+        <input type="text" name="Név" placeholder="Teljes név" required>
+        <input type="email" name="Email" placeholder="Email cím" required>
+        <input type="text" name="Esemény típusa" placeholder="Esemény típusa" required>
+        <input type="date" name="Dátum" required>
+        <textarea name="Részletek" placeholder="Írd le röviden az esemény részleteit" rows="5"></textarea>
+
+        <button type="submit" class="big-button">
+            AJÁNLATKÉRÉS KÜLDÉSE
+        </button>
+    </form>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+
+        <div class="footer-col">
+            <h3>DJ Lacy</h3>
+            <p>
+                Professzionális DJ szolgáltatás esküvőkre,
+                iskolai bulikra és privát rendezvényekre.
+                Modern technika és garantált hangulat.
+            </p>
+        </div>
+
+        <div class="footer-col">
+            <h4>Gyors linkek</h4>
+            <a href="#about">Rólam</a>
+            <a href="#services">Szolgáltatások</a>
+            <a href="#contact">Kapcsolat</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Szolgáltatások</h4>
+            <a href="#">Iskolai bulik</a>
+            <a href="#">Esküvők</a>
+            <a href="#">Házibulik</a>
+            <a href="#">Céges rendezvények</a>
+        </div>
+
+        <div class="footer-col">
+            <h4>Kapcsolat</h4>
+            <a href="mailto:info@djlacy.hu">Email</a>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 DJ Lacy | Minden jog fenntartva
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
